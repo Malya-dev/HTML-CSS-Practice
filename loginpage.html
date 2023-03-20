@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <div id="loginid" class="loginpage">
+                <center>
+                    <h1>LOG-IN</h1>
+                    <form action="services.html" id="Registration">
+                        <label class="form-label" for="usrnm"><b>Username / Email</b></label><br>
+                        <input class="form-control" type="text" id="usrnm" name="usrnm" required><br><br>
+
+                        <label class="form-label" for="pswd" ><b>Password:</b></label><br>
+                        <input class="form-control" type="text" id="pswd" name="pswd" required><br><br>
+                        
+                        <label class="form-label" for="dtime"><b> Date:</b></label><br>
+                        <input type="date" id="dtime" name="dtime" required>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                </center>
+                <h1></h1>
+    </header>
+</body>
+<style>
+   .loginpage form{
+    margin:auto;
+    margin-top: 100px;
+    width: 300px;
+    padding: 40px;
+    box-sizing: border-box;
+    background:linear-gradient(60deg,cyan,rgba(199, 2, 199, 0.603));
+    border-style:ridge ;
+    border-width: 5px 5px;
+}
+.loginpage h1{
+    color: rgb(236, 40, 83);
+
+    font-size: 50px;
+    padding: auto;
+}
+body{
+    background-image: url("bg2.jfif");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.form-label{
+    font-size: 20px;
+    color:rgba(17, 2, 7, 0.808);
+}
+
+</style>
+
+</html>

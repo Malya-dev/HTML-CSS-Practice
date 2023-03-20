@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors Appointment</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<section>
+
+    <body>
+        <div class="left">
+            <div class="logo">
+                <img src="mlogo2.jfif" alt="">
+            </div>
+            <div class="main">
+                <ul>
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href=""> Support</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="doctable">
+            <table style="width: 100%;">
+                <tr>
+                    <caption style="text-align: center;color: rgb(238, 0, 59);font-size: 50px;font-family: fantasy;">Doctors Schedule
+                    </caption>
+                </tr>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Days</th>
+                    <th>Timings</th>
+                </tr>
+                <tr>
+                    <td>Dr. Sanjay Agarwal</td>
+                    <td>Dermatologist</td>
+                    <td>Monday</td>
+                    <td>10 Am - 1 Pm</td>
+                </tr>
+                <tr>
+                    <td>Dr. P. Mukherjee</td>
+                    <td>Urology</td>
+                    <td>Tuesday</td>
+                    <td>1pm -4pm </td>
+                </tr>
+                <tr>
+                    <td>Dr. Saikat Ghosh </td>
+                    <td>Orthopedic</td>
+                    <td>Wednesday</td>
+                    <td>4 pm - 7pm</td>
+                </tr>
+                <tr>
+                    <td>Dr. Bhujango Mohan Das</td>
+                    <td>Medicine</td>
+                    <td>Thursday</td>
+                    <td>9 Am - 12 Am</td>
+                </tr>
+                <tr>
+                    <td>Dr. R.S. Majumdar</td>
+                    <td>Cardiologist</td>
+                    <td>Friday</td>
+                    <td>11 Am - 4 Pm</td>
+                </tr>
+                <th></th>
+
+            </table>
+</section>
+</div>
+<div class="dropdown">
+    <h1 style="text-align: center;color: red;"> Book Appointment</h1>
+    <center>
+        <br>
+        <select name="Book Appointment" id="">
+            <option value="">Select Doctors</option>
+            <option value="">Dr. Sanjay Agarwal</option>
+            <option value="">Dr. P. Mukherjee</option>
+            <option value="">Dr. Saikat Ghosh </option>
+            <option value="">Dr. Bhujango Mohan Das</option>
+            <option value="">Dr. R.S. Majumdar</option>
+        </select>
+    </center>
+</div>
+<div>
+    <center>
+    <button class="button">Book Appointments</button>
+    <!-- <input type="submit" value="Booking"> -->
+</center>
+</div>
+
+<style>
+    .logo img{
+    opacity: .99;
+    padding: 25px 25px;
+    float:left;
+    width: 13%;
+    height: 10%;
+    box-sizing: border-box;
+    
+    }
+    table,
+    th,
+    td {
+        border: 2px 4px solid tomato;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    th {
+        color: black;
+        font-size: large;
+    }
+
+    td {
+        background-color: #ddddbe;
+    }
+
+    body {
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.3)), url(bglogo.jpg);
+    }
+
+    button:hover {
+
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.17), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: #4bff87;
+    }
+
+    .button {
+        
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        /* -webkit-transition-duration: 0.4s; Safari */
+        transition-duration: 0.4s ease;
+    }
+    .dropdown select{
+        font-size: 17px;
+        padding:9px 20px;
+        margin: 10px 20px;
+
+    }
+</style>
+
+</body>
+
+</html>
